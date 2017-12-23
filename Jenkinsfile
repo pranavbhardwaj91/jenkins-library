@@ -1,21 +1,5 @@
-pipeline {
-    agent any
+@!/usr/bin/env groovy
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                sh "echo 'Deploying....'"
-            }
-        }
-    }
+node {
+    print "Hello World"
 }
