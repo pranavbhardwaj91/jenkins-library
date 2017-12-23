@@ -1,3 +1,7 @@
 #!/usr/bin/env groovy
 
-println "Hello World!!"
+def call(Closure body){
+  node {
+    println "Hello World!!"
+  }
+}
