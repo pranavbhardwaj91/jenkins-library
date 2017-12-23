@@ -1,5 +1,5 @@
 @!/usr/bin/env groovy
 
 node {
-    print "Hello World"
+    println "Hello world"
 }
