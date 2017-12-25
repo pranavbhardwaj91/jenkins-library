@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def student_name = pranav;
+def student_name = "pranav";
 
-println ${student_name}
+println student_name
