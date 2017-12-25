@@ -2,4 +2,4 @@
 
 def student_name = pranav;
 
-println (student_name)
+println ${student_name}
