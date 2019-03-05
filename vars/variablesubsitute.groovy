@@ -2,4 +2,8 @@
 
 def student_name = "pranav";
 
-println student_name
+def call(Closure body){
+  node {
+    println student_name
+  }
+}
